@@ -1,15 +1,14 @@
-import this.props.first from 'prop-types'
+import {PropTypes} from 'prop-types';
 
 export const CounterApp = ({value}) => {
   return (
     <>
-    <div>CounterApp</div>
+    <h1>CounterApp</h1>
     <h2>{value}</h2>
     </>
-  ):
+  );
 }
 
 CounterApp.propTypes = {
-    value: PropTypes.number
-}
-
+  value: PropTypes.number
+ };
